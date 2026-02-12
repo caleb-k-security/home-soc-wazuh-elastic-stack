@@ -1,0 +1,28 @@
+# Incident Report Template (Mini SOC)
+
+## Summary
+- Incident Title:
+- Date/Time (UTC):
+- Affected Host:
+- Severity:
+- Status:
+
+## Detection
+- Detection Source (Wazuh rule / log source):
+- Key Indicators:
+- Timeline of Events:
+
+## Investigation
+- What was observed:
+- Evidence reviewed:
+- Enrichment performed (if any):
+- Analyst conclusion:
+
+## Actions Taken
+- Containment steps:
+- Recommendations:
+- Escalation decision:
+
+## Lessons Learned
+- What worked:
+- What to improve:
