@@ -1,0 +1,44 @@
+# SOC Health Checks
+
+## Server Status Checks
+Verify services:
+
+sudo systemctl status wazuh-manager
+sudo systemctl status wazuh-indexer
+sudo systemctl status wazuh-dashboard
+
+Expected:
+Active (running)
+
+---
+
+## Dashboard Access Test
+Access from analyst workstation:
+
+https://192.168.x.x
+
+Expected:
+Login successful.
+
+---
+
+## Agent Status Check
+Dashboard → Agents
+
+Expected:
+Endpoint status = Active
+
+---
+
+## Log Ingestion Verification
+Dashboard → Security Events
+
+Expected:
+New events appear from enrolled endpoint.
+
+---
+
+## Final Validation Result
+If all checks pass:
+
+SOC environment operational.
